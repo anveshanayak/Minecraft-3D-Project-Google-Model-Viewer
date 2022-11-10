@@ -1,14 +1,19 @@
 body {
+    
     margin: 0;
     padding: 0;
     font-family: "DM Sans", sans-serif;
-    background: #0fb8b5;
+    background: #f8fcab00;
       /*linear-gradient(
       180deg,
       rgba(230, 178, 51, 1) 0%,
       rgba(188, 99, 2, 1) 100%
     );*/
     background-attachment: fixed;
+    background-image: url(./minecraft/bg_minecraft3.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     overscroll-behavior: none;
   }
   .Hotspot{
@@ -17,6 +22,7 @@ body {
     width: 20px;
     border-style: none;
   }
+  
   
   .HotspotAnnotation{
       background: rgb(255, 255, 255);
@@ -146,7 +152,7 @@ body {
     height: 100vh;
     display: flex;
     position: fixed;
-    top: 0;
+    top: 170;
     justify-content: center; /* align horizontal */
     align-items: center; /* align vertical */
     --poster-color: transparent;
